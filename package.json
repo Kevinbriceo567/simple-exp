@@ -1,6 +1,6 @@
 {
-  "name": "airbnb-clone-3",
-  "version": "0.1.0",
+  "name": "simple-exp",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
