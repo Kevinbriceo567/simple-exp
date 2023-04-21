@@ -46,11 +46,11 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                     py-3
                     px-4
                     rounded-full
-                    hover:bg-neutral-100
+                    hover:bg-violet-100
                     transition
                     cursor-pointer"
                 >
-                    Airbnb your home
+                    Add your experience
                 </div>
                 <div onClick={toggleOpen}
                     className="
@@ -69,6 +69,9 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             "
                 >
                     <AiOutlineMenu />
+                    <div className='hidden md:block'>
+                        {currentUser?.name}
+                    </div>
                     <div className='hidden md:block'>
                         <Avatar src={currentUser?.image} />
                     </div>
