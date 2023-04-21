@@ -1,3 +1,4 @@
+
 import EmptyState from "@/app/components/EmptyState";
 import ClientOnly from "@/app/components/ClientOnly";
 
@@ -22,8 +23,8 @@ const PropertiesPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No experiences found"
-          subtitle="0 experiences."
+          title="No properties found"
+          subtitle="Looks like you have no properties."
         />
       </ClientOnly>
     );

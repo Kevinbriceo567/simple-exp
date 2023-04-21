@@ -56,7 +56,7 @@ export const categories = [
     label: 'Lake',
     icon: GiBoatFishing,
     description: 'This property is near a lake!'
-  },/*
+  },
   {
     label: 'Skiing',
     icon: FaSkiing,
@@ -96,7 +96,7 @@ export const categories = [
     label: 'Lux',
     icon: IoDiamond,
     description: 'This property is brand new and luxurious!'
-  }*/
+  }
 ]
 
 const Categories = () => {
